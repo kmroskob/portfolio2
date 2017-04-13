@@ -1,0 +1,7 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. */
+}
+
+footer {
+    margin: 50px 0;
+}

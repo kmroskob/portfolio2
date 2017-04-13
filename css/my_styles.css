@@ -1,0 +1,188 @@
+/******Main Styles *****/
+
+h1, h2, h3, h4, h5, h6, .btn {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+
+p {
+	color: #aaa;
+}
+
+p, .navbar li {
+	font-family: 'Lato', sans-serif;
+}
+.navbar-brand {
+	font-size: 2.5em;
+	color: #FF007A !important;
+}
+
+span {
+	font-family: 'Iceland', cursive;
+}
+
+span:hover {
+	color: #099CB2; 
+}
+
+.navbar li {
+
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+.navbar ul li.active a {
+	background-color: #8C0E4A !important; 
+}
+
+#navbar > ul li a:hover {
+	background-color: #B2125F;
+}
+
+
+a.btn {
+	background-color: #B2125F;
+	color: #fff;
+	border-style: none;
+}
+
+a.btn:hover {
+	background-color: #099CB2; 
+	color: #eee;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #B2125F;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #B2125F;
+    border-color: #B2125F;
+}
+
+/*.pagination>li>a:hover {
+	background-color: #B2125F !important;
+	color: #fff;
+}*/
+/********Home page ************/
+
+.site-wrapper {
+	
+	background-image: url(../img/computer_design.jpg);
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+/*	background-color: rgba(42, 62, 80, .7);*/
+}
+
+
+
+
+
+/***** About Me Page ******/
+
+
+.jumbotron {
+	background-image: url(../img/about_header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.jumbotron div.container {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.jumbotron .btn {
+	background-color: #B2125F;
+	border-style: none;
+}
+
+.jumbotron .btn:hover {
+	background-color: #099CB2;
+	color: #eee;
+}
+
+
+a.btn.btn-default {
+	background-color: #B2125F;
+	color: #fff;
+	border-style: none;
+}
+
+a.btn.btn-default:hover {
+	background-color: #099CB2; 
+	color: #eee;
+}
+
+img#me.img-responsive  {
+	border-radius: 50%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+
+@media all and (min-width: 768px) {
+	img#me.img-responsive  {
+	width: 20%;
+	height: auto;
+	margin: -120px auto 0;
+	border-radius: 50%;
+	max-width: 100%;
+	}
+}
+
+
+/******* Project Details *********/
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+
+/********* Contact **********/
+
+.contact{
+	background-image: url(../img/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top-center;
+}
+
+legend {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
